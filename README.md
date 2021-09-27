@@ -1,5 +1,7 @@
 # go-consumer
 
+THIS BOTH A BASIC KAFKA PRODUCER AND CONSUMER WRITTEN IN GO.  APPLICATION SETS UP A PRODUCER, PRODUCES A MESSAGE TO THE TOPIC AND THEN SETS UP A CONSUMER AND CONSUMES THAT MESSAGE FROM THE TOPIC
+
 1. Followed instructions [here](https://strimzi.io/quickstarts/) up until right before the send/receive messages section 
 
 2. Modified kafka CRD to add exposed port (so I can communicate with this program as a hardcoded broker) like this:
